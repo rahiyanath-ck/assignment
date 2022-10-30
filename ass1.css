@@ -1,0 +1,29 @@
+
+.table{
+  background-color:lightgoldenrodyellow;
+  width:90%;
+  margin-left: 80px;
+  border-spacing:0;
+  margin-bottom: 70px;
+  border-spacing: 0; 
+  
+  
+}
+.tr{
+ padding: 0;
+ border-spacing: 0;
+ height: 0;
+ margin-top: 2px;
+ 
+ 
+}
+td{
+  margin-top: 2px;
+  padding: 0;
+  border-spacing: 0;
+  margin-bottom: 40px;
+}
+
+body{
+  border-spacing: 15px;
+}
