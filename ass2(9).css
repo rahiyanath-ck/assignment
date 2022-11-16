@@ -1,0 +1,19 @@
+body{
+    text-align:left;
+    padding-left: 30px;
+}
+table,th,td,tr{
+    text-align:center;
+}
+
+
+.resume{
+    margin-left:90px;
+}
+button{
+    width:100px;
+    height: 35px;
+    border-radius:6px;
+}
+
+

@@ -1,0 +1,117 @@
+<!--3-->
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+img{
+    border: 3px solid red;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 50px;
+    height:300px;
+    width:400px;
+    opacity: 0.7;
+    margin:10px;
+    box-shadow: 12px 16px blue;
+    filter: blur(12px);
+   
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<h1><u>ass3 work 3:</u></h1>
+<div class="header">
+  <h2 >Responsive Image Gallery</h2>
+</div>
+<div class="row"> 
+  <div class="column">
+    <img src="https://theluxurytravelexpert.com/wp-content/uploads/2019/07/header4.jpg" style="width:100%">
+    <img src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2019/07/UMAID-BHAWAN-PALACE-JODHPUR-INDIA.jpg?ssl=1" style="width:100%">
+    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2016/02/Top-10-Luxury-Hotels-in-India.jpg" style="width:100%">
+    <img src="https://media.cntraveler.com/photos/53dacfb96dec627b14a044c4/master/w_1024,h_768,c_limit/taj-palace-hotel-new-delhi-new-delhi-india-108625-1.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQDh_kUcj5s4f_wAK8ihXH2LjTUxv_7JNtvRDvEKunvlo4RB7gqWPhQEG_vcnZEJ92m4&usqp=CAU" style="width:100%">
+    <img src="https://www.theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-3.jpg" style="width:100%">
+    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2016/02/Top-10-Luxury-Hotels-in-India.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-iGNi3lyClQRnNTdoSpCtIn1ITw69UxYxhNvFFHkltcnIdm-b1qqSCRVH8fG-b4HQHIk&usqp=CAU" style="width:100%">
+    <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-1.jpg" style="width:100%">
+    <img src="https://blog-content.ixigo.com/wp-content/uploads/2015/12/glryRsrtB7-1.jpg" style="width:100%">
+    <img src="https://img.theculturetrip.com/wp-content/uploads/2018/01/8cf0d468.jpg" style="width:100%">
+    <img src="https://i.ytimg.com/vi/N4-KbLmup8s/maxresdefault.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxJmftCzOihdS8aVe1CXHs-dz8vqhVthqK0FhqlI9FYXZ83CVnd84cnNqXEMnN7Q9sGo&usqp=CAU" style="width:100%">
+    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2016/02/Top-10-Luxury-Hotels-in-India.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="https://media.cntraveler.com/photos/53dacfb96dec627b14a044c4/master/w_1024,h_768,c_limit/taj-palace-hotel-new-delhi-new-delhi-india-108625-1.jpg" style="width:100%">
+    <img src="https://cdn.theculturetrip.com/wp-content/uploads/2021/02/d9fc611f.jpg" style="width:100%">
+    <img src="https://media.easemytrip.com/media/Blog/India/637073414728587272/637073414728587272dMZIPW.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMPViRDgZCSyU7kynwklvUtxAHCxphfSR_Kg&usqp=CAU" style="width:100%">
+    <img src="https://www.indianholiday.uk/blog/wp-content/uploads/2014/01/hotel-Claridges-New-Delhi.jpg" style="width:100%">
+    <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-1.jpg" style="width:100%">
+    <img src="https://cdn.holidaytravel.co/uploaded_files/destination_img/2016_0757ee13cbb12d6india-top-25-luxury-hotels.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-1.jpg" style="width:100%">
+    <img src="https://i.ytimg.com/vi/J46BmbWp_lM/maxresdefault.jpg" style="width:100%">
+    <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Umaid-Bhawan-Palace-1.jpg" style="width:100%">
+    <img src="https://media.cntraveler.com/photos/594001185fff7e434a15efbe/master/w_2048,h_1536,c_limit/Exterior-UmaidBhawanPalaceTaj-India-CRHotel.jpg" style="width:100%">
+    <img src="https://www.luxurylink.com/images/sho_549d5aed/11402_12-630/Exterior.jpg" style="width:100%">
+    <img src="https://www.telegraph.co.uk/content/dam/Travel/hotels/asia/india/taj-lake-palace-india-product.jpg" style="width:100%">
+    <img src="https://i.ytimg.com/vi/J46BmbWp_lM/maxresdefault.jpg" style="width:100%">
+    
+  </div>
+  
+</div>
+
+</body>
+</html>
